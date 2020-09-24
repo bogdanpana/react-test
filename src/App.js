@@ -54,7 +54,6 @@ class App extends Component {
         }
         </div>
 
-
         <div style={{ display: "flex", flexDirection: "column", height: "600px", justifyContent: "space-around" }}>
           {/* Title input */}
           <label style={{ height: "100px", width: "300px", display: "flex", flexDirection: "column" }}>
