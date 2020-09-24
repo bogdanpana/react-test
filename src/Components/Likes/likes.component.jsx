@@ -12,7 +12,9 @@ export default class Likes extends Component {
         this.setState({likes:this.state.likes+1})
     }
     dislikeThisPost = () =>{
-        this.setState({likes:this.state.likes-1})
+        if(this.state.likes>0){
+            this.setState({likes:this.state.likes-1})
+        }
     }
     render() {
         return (
